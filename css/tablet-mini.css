@@ -1,0 +1,160 @@
+@media screen and (max-width: 1023px) {
+    .header-top__container{
+        padding-top: 2.2vw;
+        padding-bottom: 1.7vw;
+    }
+    .header-top__logo{
+        margin-right: 27.9vw;
+    }
+    .header-top__logo-img{
+    width:24.8vw;
+    height:8.79vw;
+    }
+    .header-top__nav{
+      height: 100vw;
+      }
+   .header-top__linck{
+      font-size: 3.34vw;
+   }   
+   .burger__list{
+      height: 75.66vw;
+   }
+    .form-container{
+        display: block;
+        width: 28vw;
+        height: 4vw;
+        position: relative;
+        }
+    .banner{
+      height: 87.2vw;
+    }
+    .banner__img1{
+     height: 87.2vw;
+     }
+    .banner__img2{
+     height: 87.2vw;
+     }
+    .banner__img3{
+     height: 87.2vw;
+     } 
+     .banner__container {
+        padding: 14.6% 51px;
+        
+     }
+     .banner__title{
+        font-size: 9.38vw;
+        line-height: 11vw;
+        width: 75vw;
+        margin-bottom: 1.3vw;
+     }
+     .banner__description{
+     font-size:2.34vw; 
+     width: 99%; 
+     line-height: 4vw;
+     margin-bottom: 17vw;  
+     }
+     .banner__button{
+        width: 41.2vw;
+        height: 8.83vw;
+        font-size: 2.34vw;
+     }
+     .banner__button-outline {
+        width: 42.9vw;
+        height: 10vw;
+     }
+     .aboutus__container {
+        padding-top: 11.3vw;
+        padding-bottom: 9vw;
+     }
+     .title{
+        font-size:6.25vw;
+        padding-bottom: 2.7vw;
+     }
+     .aboutus__description{
+         font-size: 2.08vw;
+         width:100%;
+         line-height: 4.15vw;
+     }
+     .gallery__container {
+      padding-top: 11.3vw;
+      padding-bottom: 21.7vw;
+     }
+     .gallery__container {
+        flex-direction: column;
+         }
+     .title-white{
+      font-size:6.25vw;
+      padding-bottom: 3.7vw;
+   }
+   .gallery__filter{
+   font-size:2.08vw;
+   padding-bottom: 1.7vw;
+   } 
+   .gallery__menu{
+      width: 36.5vw;
+      height: 5vw;
+   }
+   .gallery__button {
+      height: 5.27vw;
+      width: 38.5vw;
+   }
+   .gallery__button-title{
+      font-size: 2.08vw;
+   }
+   .gallery__button-title {
+      padding-right: 20.7vw;
+   }
+   .gallery__expand {
+      width: 1.8vw;
+      height: 1vw;
+   }
+   .gallery__ul {
+      width: 37.2vw;
+      position: absolute;
+      z-index: 2;
+    }
+   .gallery__li{
+      font-size: 2.08vw;   
+   }
+   .gallery__part-left{
+      order: 1;
+   }
+   .gallery__part-right{
+      order: 2;
+      width: 87vw;
+      padding-left: 0vw;
+   }
+   .gallery__btns{
+      width: 81vw;
+      position: relative;
+      padding-bottom: 4%;
+   }
+   .gallery__btn-prev {
+      width: 4vw;
+   }
+   .gallery__btn-next {
+      width: 4vw;
+   }
+   .gallery__download{
+      position: absolute;
+      padding-top: 90.5vw;
+      font-size:2.08vw;
+      width: 85.89vw;
+      line-height: 4vw;
+   }
+   .gallery__list{
+      height: 10.5vw;
+   }
+   .gallery__paint {
+      height: 36.4vw;
+      width: 41.28vw;
+      margin-bottom: -2vw;
+   }
+   .gallery__paint-bottom{
+      height: 38.4vw; 
+   }
+   .gallery__glass {
+      width: 34.63vw;
+      height: 31.63vw;
+  }
+  }

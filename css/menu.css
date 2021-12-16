@@ -1,0 +1,271 @@
+
+.container--dropdown-list__item:last-child:hover{
+  border: #8C65AB 2px solid;
+}
+ ul {
+    list-style: none;
+    padding: 0;
+  }
+  .list {
+    display: flex;
+      justify-content: space-between;
+  }
+  .list--item__btn {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 5px 20px;
+    
+    cursor: pointer;
+    
+    color: #fff;
+    transition-property: background-color;
+    transition: .3s ease-in-out;
+  }
+  
+  .list--item__btn:focus-visible {
+    outline: 0;
+  }
+  .list--item__btn:active {
+    color:#7943a4;
+    color:white;
+  }
+  .list--item {
+    position: relative;
+  }
+  .container--dropdown {
+    
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    margin-left: -1vw;
+    
+    display: none;
+  }
+  .container--dropdown-list__item {
+    padding: 20px;
+    border-bottom: 2px solid grey;
+    
+  }
+  .container--dropdown-list__item:last-child {
+    border: 0;
+    
+  }
+  
+  .active-list--item {
+    display: block;
+   }
+ 
+  
+ 
+  
+  
+  @keyframes anim {
+    0% {
+      transform: scaleX(0)  translateX(-50%);
+      opacity: 0;
+    }
+    50% {
+      transform: scaleX(1) translateX(0%);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(0) translateX(50%);
+      opacity: 0;
+    }
+  }
+
+  .list--item__btn{
+    border: 0;
+    outline: 0;
+    margin-left: -1vw;
+    margin-right: -0.5vw;
+    font-weight: 400;
+    margin-top: -0.3vw;
+       }
+  
+  
+  /*Дополнительные стили подменю */
+  .simplebar{
+    font-family: "OpenSans-Regular";
+    font-weight: 600;
+    font-size: 16px;
+    }
+ .header-bottom__tintoreto{
+    background-image: url('../img/paint1-1.png');
+    background-size:cover;
+    
+    background-repeat:no-repeat ;
+  }
+  .header-bottom__fridrih{
+    background-image: url('../img/paint1-2.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+    
+    
+  }
+  .header-bottom__leonardo{
+    background-image: url('../img/paint1-3.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+      
+  }
+  .header-bottom__verrokkio{
+    background-image: url('../img/paint1-4.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+      
+  }
+  .header-bottom__mone{
+    background-image: url('../img/paint2-1.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+      
+  }
+  .header-bottom__sislei{
+    background-image: url('../img/paint2-2.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+      
+  }
+  .header-bottom__mane{
+    background-image: url('../img/paint2-3.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+      
+  }
+  .header-bottom__renuar{
+    background-image: url('../img/paint2-4.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+      
+  }
+  .header-bottom__vangog{
+    background-image: url('../img/paint3-1.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+    
+  }
+  .header-bottom__gogen{
+    background-image: url('../img/paint3-2.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+      
+  }
+  .header-bottom__sezan{
+    background-image: url('../img/paint3-3.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+      
+  }
+  .header-bottom__sera{
+    background-image: url('../img/paint3-4.png');
+    background-size:cover;
+    background-repeat:no-repeat ;
+     
+  }
+  .header-bottom__kandinski{
+    background-image: url('../img/paint4-1.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+      
+  }
+  .header-bottom__marinetti{
+    background-image: url('../img/paint4-2.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+     
+  }
+  .header-bottom__malevich{
+    background-image: url('../img/paint4-3.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+     
+  }
+  .header-bottom__pikasso{
+    background-image: url('../img/paint4-4.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+      
+  }
+  .header-bottom__karra{
+    background-image: url('../img/paint5-1.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+     
+  }
+  .header-bottom__pratella{
+    background-image: url('../img/paint5-2.png');
+    background-size:cover;
+     
+  }
+  .header-bottom__severini{
+    background-image: url('../img/paint5-3.png');
+    background-size:cover;
+      
+  }
+  .header-bottom__bala{
+    background-image: url('../img/paint5-4.png');
+    background-size:cover;
+      }
+    
+    .banner__submenu-li{
+      display: flex;
+      flex-direction: row;
+      } 
+   
+  
+    * {
+      box-sizing: border-box;
+    }
+    ul {
+      list-style: none;
+      padding: 0px;
+    }
+    .simplebar-container {
+      background-color: #e5e5e5;
+      max-width: 300px;
+      padding: 30px;
+    }
+    .simplebar {
+      height: 240px;
+      padding-right: 20px;
+    }
+    .simplebar__item {
+      min-height: 30px;
+      padding: 5px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    .simplebar__item:last-child {
+      margin-bottom: 0px;
+    }
+    
+    .simplebar .simplebar-track.simplebar-vertical {
+      background-color: grey;
+      width: 2px;
+    }
+    .simplebar .simplebar-scrollbar {
+      width: 2px;
+      background-color: pink;
+    }
+    .simplebar-container{
+      overflow-y: scroll;
+      width: 15.63vw;
+      height: 15.63vw;
+      
+    }
+    .simplebar-container::-webkit-scrollbar
+{
+    background-color: white;
+    border-radius: 8px;
+    width: 2px;
+    overflow: hidden;
+    ;
+}
+.simplebar-container::-webkit-scrollbar-thumb
+{
+    background-color: black;
+}
+    
+ 

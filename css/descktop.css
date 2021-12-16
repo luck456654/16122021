@@ -1,0 +1,647 @@
+/* Шрифты */
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.woff"),
+	url("../fonts/OpenSans-Regular.woff2");
+    font-weight: normal;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Bold.woff2"),
+		 url("../fonts/OpenSans-Bold.woff");
+    font-weight: bold;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-SemiBold.woff"),
+	url("../fonts/OpenSans-SemiBold.woff2");
+    font-weight: 600;
+	font-style: normal;
+  }
+/* Общие стили */  
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "OpenSans";
+    cursor: url("../img/cursor.svg"),default;
+    
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.left{
+    text-align: left;
+}
+input::placeholder {
+	color: white;
+  }
+input{
+    color: white;
+}  
+
+
+/* Ховеры*/
+@media screen and (min-width: 1201px) {
+.header-top__linck:hover:not(:focus){
+    color:#83609F;
+}
+.header-top__linck:focus{
+background-color: #7943A4;
+color:white;
+padding: 7px;
+}
+.header-top__login:hover:not(:focus){
+    fill:#7943A4;
+    color:#7943A4;
+}
+.header-top__login:focus{
+    background-color: #7943A4;
+    fill:#7943A4;
+    color:white;
+    padding: 7px;
+    }
+.bg-color:hover:not(:focus){
+    fill:#7943A4;
+    color:#7943A4;
+    }
+.bg-color:focus{
+    background-color: #7943A4;
+    fill:#7943A4;
+    color:white;
+    padding: 7px;
+        }    
+.header-bottom__search-input:hover{
+border-bottom: #9B6ABF 2px solid;
+}
+
+.simplebar__item:hover{
+    border:#9B6ABF 2px solid;
+}
+}
+.gallery__btn-next:hover,.gallery__btn-prev:hover{
+    fill:#7943A4;
+    color:white;   
+}
+.gallery__glass:hover{
+    opacity: 1;
+}
+.banner__button-outline:hover{
+    border: 0.05vw solid #C283F3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Стили адаптива разрешения на 1920 cвыше 1200*/
+.nav__close{
+        display: none;
+    }  
+.form-container{
+  display: none;
+      }  
+.container{
+  max-width: 1703px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+ }
+ .header{
+    position: relative; 
+    z-index: 20;
+ }
+ .header-top{
+    background-color: black;
+    color:white;
+    
+}
+.header-top__container{
+    font-size: 18px;
+    font-weight: 600; 
+    padding-top: 28px;
+    padding-bottom: 29.5px; 
+}
+
+.header-top__logo{
+  margin-right: auto; 
+  order:1; 
+  width:173px;
+  height: 39.9px;
+}
+
+.header-top__login{
+    font-weight: normal;
+    order:3;  
+      
+}
+.header-top__nav{
+    width: 78%;
+    order:2;
+}
+.header-top__list{
+    margin-right: auto;
+    width: 71.5%;
+    justify-content: space-between;
+
+}
+.header-top__list li:not(:last-child){
+    margin-right: 10px;
+}
+.header-bottom{
+    background: rgba(0,0,0, 0.5);
+    color:white;
+    position: absolute;
+    z-index: 2;
+    width:100%;
+
+}
+.simplebar__item{
+    position: relative;
+    z-index: 3;
+    width: 145px;
+    height: 19px;  
+}
+.container--dropdown
+{
+position: absolute;
+}
+.header-bottom__container{
+    padding-top: 28px;
+    padding-bottom: 20px; 
+    
+}
+.header-bottom__search{
+    margin-left: auto;
+}
+
+.header-bottom__icon-search{
+	background-image: url(./img/icon-search.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    margin-right: auto;
+}
+.header-bottom__search-input{
+	background-color: rgba(0, 0, 0, 0);
+	color:white;
+	border: none;
+	border-bottom:1px white solid;
+	height: 21px;
+	font-size: 20px;
+	font-family: "OpenSans";
+	font-weight: 400;
+	outline: none;
+    color: white;
+    width: 11.5vw;
+    padding-bottom: 0.2rem;
+}
+.header-bottom__ul{
+    background-color: rgba(0,0,0,0.5)!important;
+    }
+.menu{
+margin-right: auto;
+justify-content: space-between;
+width: 1047px;
+}
+.list--item__btn
+{
+    font-size: 18px;
+    font-weight: 400;
+  }
+.header__expand{
+    margin-right: 7px;
+}   
+.header-bottom__icon-search{
+    margin-right: 8px;
+}
+.header-top__search-container{
+    display: none;
+}
+.banner__container{
+    margin-bottom: -53px;
+}
+.banner{
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.banner__anim{
+    animation: scale 6s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1);
+    }
+    20%{
+    transform: scale(1.1);
+      }
+    30% {
+        transform: scale(1.2);
+    }
+    40% {
+        transform: scale(1.3);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    60%{
+        transform: scale(1.3);    
+    }
+    70%{
+        transform: scale(1.2);  
+    }
+    80%{
+        transform: scale(1.1);  
+    }
+    90%{
+        transform: scale(1);  
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.banner__swiper{
+    position: absolute; 
+    top: 0; left: 0; right: 0; bottom: 0;
+    
+
+}
+    .banner__img1{
+        background-image: url(../img/banner1-01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner__img2{
+        background-image: url(../img/banner1-02.png);
+        background-repeat: no-repeat; 
+        background-size: cover;
+        }
+    .banner__img3{
+            background-image: url(../img/banner1-03.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+    
+    .banner__title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 82.8px;
+        color: #FFFFFF;
+        width: 597px;
+        margin-bottom: 23px;
+        }
+    .banner__description{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 30px;
+		width:557px;
+		color:white;
+        margin-bottom: 83px;
+		}    
+    .banner__button-outline{
+            width:334px;
+            height: 92px;
+            border-radius: 5.21vw;
+            padding-top: 10px;
+            }
+        .banner__button{
+            width: 314px;
+            height: 70px;
+            color: white;
+            background: #9D5CD0;
+            border-radius: 100px;
+            font-size:18px;
+            font-weight: bold;
+            outline: none;
+            border: none;
+            letter-spacing: 0vw;
+          } 
+        .aboutus{
+            color: #333333;
+            font-weight: 400;
+                }
+        .aboutus__container{
+            padding-top: 84px;
+            padding-bottom: 70px;
+        }        
+        .title{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            margin-bottom: 21px;
+             }
+        .aboutus__description{
+            width: 1078px;
+            font-style: normal;
+            font-size:16px;
+            line-height: 32px;
+            } 
+        .gallery{
+            background-image: url(../img/background-gallery.jpg); 
+        }
+        .gallery__container{
+                padding-top: 85px;
+                padding-bottom: 66px;
+                font-style: normal;
+                font-weight: 600;
+                color: white;
+                display: flex;
+                flex-direction: row;
+               } 
+        .gallery__part-left{
+            width:561px;
+        }                
+        .title-white{
+            font-weight: 400;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            margin-bottom: 19px;
+            color: white;
+        }              
+        .gallery__filter{
+            margin-bottom: 0.5vw;
+            font-size: 16px;
+            line-height: 1.63vw;
+            color: #FFFFFF;	
+        }
+        .gallery__menu{
+            width: 403px;
+            height: 41px;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border-radius: 6px;
+            outline:none;
+            margin-bottom: 29vw;
+        }
+        
+        .gallery__menu-li{
+            background-color: rgba(0,0,0,0.8); 
+            color: white;
+            width: 40px;
+            height: 41px;
+            opacity: 1;   
+        }
+        .gallery__button{
+           height: 2.8vw; 
+           align-items: center;
+           width: 22.2vw;
+           border: none;
+           padding: 1vw  1vw  1vw  1.7vw;
+        }
+        .gallery__button-title{
+            padding-right: 14.5vw;
+        }
+        .gallery__expand{
+            width: 0.63vw;
+            height: 0.36vw;
+        }
+        .gallery__download{
+            width: 347px;
+            line-height: 32px;
+            font-size: 16px;
+            }
+        .gallery__linck{
+             color:#6D4D85;
+            }    
+        .gallery__part-right{
+            color: white;
+            padding-top: 0.9vw;
+            width:75vw;
+            overflow: hidden;
+            
+        }
+        .gallery__btns{
+            display: flex;
+            flex-direction: row;
+        }
+        .gallery__btn-prev {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            transform: rotate(180deg);
+        }
+        .gallery__btn-next {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            }
+       .gallery__paint{
+           height: 18vw;
+       }
+        .gallery__paint1{
+            background-image: url('../img/gall__img1-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint2{
+            background-image: url('../img/gall__img1-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint3{
+            background-image: url('../img/gall__img2-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint4{
+            background-image: url('../img/gall__img2-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint5{
+            background-image: url('../img/gall__img3-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint6{
+            background-image: url('../img/gall__img3-2.jpg');
+            background-size: cover;
+            
+        }
+        .gallery__paint7{
+            background-image: url('../img/gall__img4-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint8{
+            background-image: url('../img/gall__img4-2.png');
+            width: 18.23vw;
+            height: 18.23vw;
+            background-size: cover;
+            
+        }
+        .gallery__paint9{
+            background-image: url('../img/gall__img5-1.png');
+            width: 18.23vw;
+            height: 18.23vw;
+            background-size: cover;
+            
+        }
+        .gallery__paint10{
+            background-image: url('../img/gall__img5-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint11{
+            background-image: url('../img/gall__img6-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint12{
+            background-image: url('../img/gall__img6-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint13{
+            background-image: url('../img/gall__img7-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint14{
+            background-image: url('../img/gall__img7-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint15{
+            background-image: url('../img/gall__img8-1.png');
+        
+            background-size: cover;
+            
+        }
+        .gallery__paint16{
+            background-image: url('../img/gall__img8-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint17{
+            background-image: url('../img/gall__img9-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint18{
+            background-image: url('../img/gall__img9-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint19{
+            background-image: url('../img/gall__img10-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint20{
+            background-image: url('../img/gall__img10-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint21{
+            background-image: url('../img/gall__img11-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint22{
+            background-image: url('../img/gall__img11-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint23{
+            background-image: url('../img/gall__img12-1.png');
+            background-size: cover;
+            
+        }
+        .gallery__paint24{
+            background-image: url('../img/gall__img12-2.png');
+            background-size: cover;
+            
+        }
+        .gallery__pagination{
+            width: 6.4%;
+            text-align: center;
+        }  
+        .gallery__right-content{
+            overflow: hidden;
+        }
+        .gallery__btns{
+            padding-bottom: 2.8%;
+            align-items: center;
+        }
+        
+        .gallery__glass{
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 15.63vw;
+            height: 15.63vw;
+            margin:0  auto ;
+            text-align: center;
+            opacity: 0;
+          }
+        .gallery__glass-paint{
+            width: 28.22%;
+            height: 100%;
+            margin:0 auto;
+            }
+         
+        .gallery__ul{
+            background-color: rgba(0,0,0,0.5)!important;
+            border: gray 1px solid;
+            width: 21.83vw;
+            border-radius: 6px;
+            font-family: "OpenSans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 0.83vw;
+            line-height: 32px;
+            border-radius: 6px;
+            color: gray;
+        }
+        .gallery__li{
+            border: gray 1px solid; 
+        }
+    
+        @media screen and (min-width: 2100px) {
+            .gallery__paint{
+                height:14.07vw;
+                width: 12.28vw;
+                padding-top: 0.6vw;
+                }
+                .gallery__glass {
+                    background-color: rgba(0, 0, 0, 0.5);
+                    width: 11.63vw;
+                    height: 12.63vw;
+                    margin: 0 auto;
+                    text-align: center;
+                    opacity: 0;    
+                    }
+                }
+            
+                 
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/burger.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/banner.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/choices.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/descktop.css">
+    <link rel="stylesheet" type="text/css" href="css/tablet.css">
+    <link rel="stylesheet" type="text/css" href="css/tablet-mini.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+
+
+
+    <title>Blanchard</title>
+</head>
+
+<body id="body">
+    <header class="header">
+        <div class="header-top">
+
+            <div class="container header-top__container flex">
+
+                <div class="header__burger">
+                    <button class="burger__btn-open">
+                        <svg width="36" height="29" viewBox="0 0 36 29" class="header-container__burger" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="36" height="3.65217" transform="matrix(-1 0 0 1 36 0.700012)" fill="white" />
+                            <path d="M28.2002 12.8739H0.000194192V16.5261H28.2002V12.8739Z" fill="white" />
+                            <path d="M24 25.0479H-9.53674e-07V28.7H24V25.0479Z" fill="white" />
+                        </svg>
+
+                    </button>
+                </div>
+
+
+
+                <nav class="header-top__nav flex burger__nav">
+                    <button class="nav__close"><svg width="23" height="23" viewBox="0 0 23 23" fill="white"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2.09094" width="29.5699" height="2.95699" transform="rotate(45 2.09094 0)"
+                                fill="white" />
+                            <rect y="20.9092" width="29.5699" height="2.95699" transform="rotate(-45 0 20.9092)"
+                                fill="white" />
+                        </svg>
+                    </button>
+                    <ul class="header-top__list burger__list flex">
+                        <li class="header-top__list-item burger__item"><a href="#aboutus" class="header-top__linck">О
+                                нас</a></li>
+                        <li class="header-top__list-item burger__item"><a href="#gallery"
+                                class="header-top__linck">Галерея</a></li>
+                        <li class="header-top__list-item burger__item"><a href="" class="header-top__linck">Каталог</a>
+                        </li>
+                        <li class="header-top__list-item burger__item"><a href="" class="header-top__linck">События</a>
+                        </li>
+                        <li class="header-top__list-item burger__item"><a href="" class="header-top__linck">Издания</a>
+                        </li>
+                        <li class="header-top__list-item burger__item"><a href="" class="header-top__linck">Проекты</a>
+                        </li>
+                        <li class="header-top__list-item burger__item"><a href="" class="header-top__linck">Контакты</a>
+                        </li>
+                    </ul>
+                    <a href="" class="header-top__login flex">
+                        <svg class="header__expand " width="13" height="13" viewBox="0 0 13 13" fill="currentcolor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z"
+                                fill="currentcolor" />
+                        </svg>Войти</a>
+                </nav>
+                <a href="#" class="header-top__logo">
+                    <img src="img/logo.svg" class="header-top__logo-img" alt="Логотип" />
+                </a>
+                <div class="header-top__search-container">
+                    <div class="form-container">
+                        <button class="form-btn__open">
+                            <svg class="header-top__glass" width="25" height="25" viewBox="0 0 30 29" fill="white"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="9.15446" height="2.28862"
+                                    transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.1246 24.174C10.0376 24.174 5.32763 19.2726 5.32763 13.5104C5.32763 7.74823 10.0376 2.84676 16.1246 2.84676C22.2115 2.84676 26.9215 7.74823 26.9215 13.5104C26.9215 19.2726 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14869 8.76285 0.180847 16.1246 0.180847C23.4863 0.180847 29.4541 6.14869 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+
+                        <form action="/" class="form">
+                            <button class="form-btn__submit">
+                                <svg width="24" height="24" viewBox="0 0 30 29" fill="white"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="9.15446" height="2.28862"
+                                        transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16.1246 24.174C10.0376 24.174 5.32763 19.2726 5.32763 13.5104C5.32763 7.74823 10.0376 2.84676 16.1246 2.84676C22.2115 2.84676 26.9215 7.74823 26.9215 13.5104C26.9215 19.2726 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14869 8.76285 0.180847 16.1246 0.180847C23.4863 0.180847 29.4541 6.14869 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                            <input class="form__input" type="text">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container header-bottom__container flex">
+                <ul class="list menu flex">
+                    <li class="list--item">
+                        <button class="list--item__btn left bg-color" id="button1" name="noactive">Реализм
+                            <svg id="expand1" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                                height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="currentcolor" />
+                            </svg>
+                        </button>
+                        <div class="container--dropdown">
+
+                            <ul class="simplebar simplebar-container header-bottom__ul">
+                                <li class="simplebar__item header-bottom__tintoreto"><a href="#">Тинтореттo</a></li>
+                                <li class="simplebar__item header-bottom__fridrih"><a href="#">Фридрих</a></li>
+                                <li class="simplebar__item header-bottom__leonardo"><a href="#">Леонардо</a></li>
+                                <li class="simplebar__item header-bottom__verrokkio"><a href="#">Верроккьо</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list--item left">
+                        <button class="list--item__btn bg-color" id="button2" name="noactive">Импрессионизм
+                            <svg id="expand2" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                                height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="currentcolor" />
+                            </svg>
+                        </button>
+
+                        <div class="container--dropdown">
+
+                            <ul class="simplebar simplebar-container header-bottom__ul">
+                                <li class="simplebar__item  header-bottom__mone"><a href="#">Моне</a></li>
+                                <li class="simplebar__item  header-bottom__sislei"><a href="#">Сислей</a></li>
+                                <li class="simplebar__item  header-bottom__mane"><a href="#">Мане</a></li>
+                                <li class="simplebar__item  header-bottom__renuar"><a href="#">Ренуар</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list--item left">
+                        <button class="list--item__btn left bg-color" id="button3" name="noactive">Постимпрессионизм
+                            <svg id="expand3" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                                height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="currentcolor" />
+                            </svg>
+                        </button>
+                        <div class="container--dropdown">
+
+                            <ul class="simplebar simplebar-container header-bottom__ul">
+                                <li class="simplebar__item header-bottom__vangog"><a href="#">Ван Гог</a></li>
+                                <li class="simplebar__item header-bottom__gogen"><a href="#">Гоген</a></li>
+                                <li class="simplebar__item header-bottom__sezan"><a href="#">Сезанн</a></li>
+                                <li class="simplebar__item header-bottom__sera"><a href="#">Cёра</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list--item left">
+                        <button class="list--item__btn left bg-color" id="button4" name="noactive">Авангард
+                            <svg id="expand4" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                                height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="currentcolor" />
+                            </svg>
+                        </button>
+                        <div class="container--dropdown">
+
+                            <ul class="simplebar simplebar-container header-bottom__ul">
+                                <li class="simplebar__item header-bottom__kandinski"><a href="#">Кандинский</a></li>
+                                <li class="simplebar__item header-bottom__marinetti"><a href="#">Маринетти</a></li>
+                                <li class="simplebar__item header-bottom__malevich"><a href="#">Малевич</a></li>
+                                <li class="simplebar__item header-bottom__pikasso"><a href="#">Пикассо</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list--item left">
+                        <button class="list--item__btn left bg-color" id="button5" name="noactive">Футуризм
+                            <svg id="expand5" class="banner__icon-expand banner__svg-icon" fill="none" width="0.63vw"
+                                height="0.36vw" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="currentcolor" />
+                            </svg>
+                        </button>
+                        <div class="container--dropdown">
+
+                            <ul class="simplebar simplebar-container header-bottom__ul">
+                                <li class="simplebar__item header-bottom__karra"><a href="#">Карра</a></li>
+                                <li class="simplebar__item header-bottom__pratella"><a href="#">Прателла</a></li>
+                                <li class="simplebar__item header-bottom__severini"><a href="#">Северини</a></li>
+                                <li class="simplebar__item header-bottom__bala"><a href="#">Балла</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="flex header-bottom__search">
+                    <img src="./img/icon-search.png" class="header-bottom__icon-search" alt="Поиск" />
+                    <input class="header-bottom__search-input" placeholder="Поиск по сайту">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+
+            <div class="swiper banner__swiper banner__anim">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide banner__img1"></div>
+                    <div class="swiper-slide banner__img2"></div>
+                    <div class="swiper-slide banner__img3"></div>
+                </div>
+            </div>
+
+            <div class="banner__container">
+                <div class="banner__title">Прикоснитесь к прекрасному</div>
+                <div class="banner__description">Мы вынуждены отталкиваться от того, что реализация намеченных плановых
+                    заданий создаёт предпосылки для новых предложений.</div>
+                <div class="banner__button-outline">
+                    <button class="banner__button">Подписаться на рассылку</button>
+                </div>
+
+
+            </div>
+        </section>
+        <section id="aboutus">
+            <div class="aboutus">
+                <div class="container aboutus__container ">
+                    <h2 class="title">О нас</h2>
+                    <div class="aboutus__description">Ясность нашей позиции очевидна: семантический разбор внешних
+                        противодействий однозначно определяет каждого участника как способного принимать собственные
+                        решения
+                        касаемо распределения внутренних резервов и ресурсов. Не следует, однако, забывать, что
+                        высококачественный прототип будущего проекта влечет за собой процесс внедрения и модернизации
+                        модели
+                        развития. Повседневная практика показывает, что высокое качество позиционных исследований
+                        создаёт
+                        необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом
+                        комплекса
+                        распределения внутренних резервов и ресурсов. В рамках спецификации современных стандартов,
+                        действия
+                        представителей оппозиции набирают популярность среди определенных слоев населения, а значит,
+                        должны быть
+                        разоблачены.</div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+            <div class="container gallery__container">
+                <div class="gallery__part-left">
+                    <h2 class="title-white gallery__title">Галерея</h2>
+                    <div class="gallery__filter">Фильтр:</div>
+                    
+                                <select name="select" class="gallery__menu">
+                                    <option class="gallery__menu-li" value="Живопись">Живопись</option>
+                                    <option class="gallery__menu-li" value="Рисунок">Рисунок</option>
+                                    <option class="gallery__menu-li" value="Скульптура">Скульптура</option>
+                                </select> 
+
+                            
+                                <form >
+                                    <label><input class="gallery__checkbox" type="checkbox"> XIX век</input></label>                                     
+                                    <div><input class="gallery__checkbox" type="checkbox"> XX век</input></div>
+                                    <div><input class="gallery__checkbox" type="checkbox"> Cовременность</input></div>
+                                </form>    
+                    <div class="gallery__download">Вам предоставляется 10 бесплатных скачиваний. Для
+                        увеличения количества скачиваний <a href="#" class="gallery__linck">авторизуйтесь</a>, либо
+                        воспользуйтесь лицензией.
+                    </div>
+                </div>
+
+                <div class="gallery__part-right">
+                    <div class="gallery__btns">
+                        <button>
+                        <svg class="gallery__btn-prev sw-btn" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                fill="#666666" />
+                            <path
+                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                stroke="black" />
+                            <path d="M14 20L19 15L14 10" stroke="white" />
+                        </svg>
+                        </button>
+                        <div class="gallery__pagination"></div>
+                        <button>
+                        <svg class="gallery__btn-next sw-btn" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                fill="#666666" />
+                            <path
+                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                stroke="black" />
+                            <path d="M14 20L19 15L14 10" stroke="white" />
+                        </svg>
+                    </div>
+                </button>
+
+                    <div class="swiper gallery__swiper">
+                        <div class="gallery__right-content">
+                            <div class="swiper-wrapper">
+                                <div class="gallery__slide swiper-slide">
+                                    <div class="gallery__paint1 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint2 swiper-slide--img gallery__paint ">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint3 swiper-slide--img gallery__paint ">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint4 swiper-slide--img gallery__paint" >
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint5 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint6 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint7 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint8 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint9 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint10 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint11 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint12 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint13 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint14 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint15 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint16 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint17 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint18 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint19 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint20 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint21 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint22 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide ">
+                                    <div class="gallery__paint23 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="gallery__slide swiper-slide">
+                                    <div class="gallery__paint24 swiper-slide--img gallery__paint">
+                                        <div class="gallery__glass">
+                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+    </section>
+    </main>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/swipers.js" defer></script>
+    <script src="./js/choices.min.js" defer></script>
+    <script src="./js/burger.js" defer></script>
+    <script src="./js/search.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>

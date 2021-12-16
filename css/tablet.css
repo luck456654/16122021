@@ -1,0 +1,229 @@
+@media screen and (max-width: 1200px) {
+.header-bottom{
+    display: none;
+}
+.header-top__container {
+    padding-top: 2.7vw;
+    padding-bottom: 2.7vw;
+    
+}
+.burger__nav{
+    flex-direction: column;
+    width: 50%;
+    padding: 4vw;
+    order: 1;
+}
+.burger__nav{
+    flex-direction: column;
+    align-items: baseline;  
+    height: 76vw;
+} 
+.burger__list{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1vw;
+    align-items: baseline;
+    margin-bottom: 5.13vw;
+    height: 54.66vw;
+}
+
+.nav__close{
+    display: block;
+}
+.header-top__linck{
+    font-size:2.5vw;
+}
+
+ 
+ .header__expand{
+ width: 3vw;
+ height: 2vw;
+ }
+ .form-container{
+    display: block;
+    width: 22vw;
+    height: 4vw;
+    position: relative;
+    
+  }
+  .header__burger{
+      order:1;
+  }
+  
+  .header-top__login{
+      font-weight: normal;
+      font-size: 3vw;
+      background-color: rgba(0,0,0,0.95);
+      border: 2px solid #9D5CD0;
+      border-radius: 9.77vw;
+      padding: 1vw 9vw;
+  }
+  .header-top__nav{
+      width: 100%;
+      height: 76vw;
+      order:2;
+      background-color: rgba(0,0,0,0.95);
+  }
+
+  
+ 
+  .header-top__linck{
+      font-size: 2.34vw;
+      font-family: "OpenSans-Regular";
+      font-style: normal;
+      font-weight: 600;
+      line-height: 6.25vw;
+  }
+    
+   .header-top__logo {
+       margin: 0 auto;
+       order: 2;
+       width: 0vw;
+      
+   }
+   .header-top__search-container{
+       padding: 0;
+       margin: 0;
+       text-align: right;
+       display: block;
+       order:3;
+
+   }
+   .form-btn__open{
+       order:3;
+   }
+   .header-top__logo-img{
+       width: 18.4vw;
+   }
+   .header-top__glass{
+       height: 3.97vw;
+        }
+    .form__input{
+        width: 16vw;
+    } 
+    .banner{
+      height: 65.4vw;
+    }
+    .banner__img1{
+     height: 65.4vw;
+     }
+    .banner__img2{
+     height: 65.4vw;
+     }
+    .banner__img3{
+     height: 65.4vw;
+     } 
+     .banner__container{
+         padding: 11% 52px;
+     } 
+     .banner__title{
+         font-size: 7vw;
+         width: 58vw;
+         line-height: 8vw;
+         margin-bottom: 1.2vw;
+     } 
+     .banner__description{ 
+        font-size:1.76vw;
+        width: 76%;
+        line-height: 3vw;
+        margin-bottom: 12.7vw;
+     }
+     .banner__button {
+        width: 30.35vw;
+        height: 6.7vw;
+        font-size: 1.76vw;
+     }
+     .banner__button-outline {
+        width: 31.9vw;
+        height: 7.5vw;
+    }
+    .aboutus__container {
+        padding-top: 8vw;
+        padding-bottom: 7vw;
+    }
+    .title{
+    font-size:4.69vw;
+    padding-bottom: 2.2vw;
+    }
+    .aboutus__description{
+    font-size:1.56vw;
+    width: 90.25vw;
+    line-height: 3.12vw;
+    }
+    .gallery__container {
+        padding-top: 8.3vw;
+        padding-bottom: 7vw;
+    }
+   .title-white{
+    font-size:4.69vw;
+   }
+  .gallery__title{
+    padding-bottom: 2.8vw;
+   }
+   .gallery__filter{
+    font-size:1.56vw
+   } 
+   .gallery__part-left {
+    width: 37vw;
+    }
+    .gallery__btns {
+        padding-bottom: 4%;
+    }
+    .gallery__btn-prev {
+       width: 3.56vw;
+       height: 3.56vw;
+       transform: rotate(
+    180deg);
+    }
+    .gallery__btn-next {
+        width: 3.56vw;
+        height: 4.5vw;
+        }
+    .gallery__pagination {
+        width: 11%;
+    }
+    .gallery__paint {
+        height: 27.07vw;
+        width: 27.28vw;
+        margin-bottom: -1.3vw;
+        padding-top: 2vw;
+    }
+    .gallery__paint-bottom{
+        height: 28.5vw;
+    }
+    .gallery__glass {
+        width: 21.63vw;
+        height: 23.63vw;
+    }
+    .gallery__filter {
+        margin-bottom: 1vw;
+        }
+    .gallery__button{
+        height: 4vw;
+        width: 28.5vw;
+        padding: 1vw 1vw 1vw 2.2vw;
+    }  
+    .gallery__button-title{
+        font-size: 1.58vw;
+        padding-right: 15.6vw;
+    }
+    .gallery__ul {
+        width: 28.2vw;
+    }
+    .gallery__li{
+        font-size: 1.58vw;   
+    }  
+    .gallery__expand {
+        width: 1.3vw;
+        height: 2vw;
+    }
+    .gallery__menu{
+        margin-bottom: 35.7vw;
+        height: 4vw;
+    }
+    .gallery__download{
+    font-size:1.56vw;
+    width: 26.89vw;
+    line-height: 3.1vw;
+    }
+    }
