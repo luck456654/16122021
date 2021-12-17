@@ -104,6 +104,9 @@ border-bottom: #9B6ABF 2px solid;
     text-align: center;
     vertical-align: middle;
 }
+.gallery__slide:hover:before { 
+    opacity: 1; 
+} 
 
 /* Стили адаптива разрешения на 1920 cвыше 1200*/
 .nav__close{
@@ -170,8 +173,10 @@ border-bottom: #9B6ABF 2px solid;
 .simplebar__item{
     position: relative;
     z-index: 3;
-    width: 145px;
-    height: 19px;  
+    width: 220px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px; 
 }
 .container--dropdown
 {
@@ -402,6 +407,14 @@ width: 1047px;
             height: 41px;
             opacity: 1;   
         }
+        .simplebar-container{
+            font-family: "OpenSans";
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 4.5%;
+            width: 300px;
+            height: 300px;
+        }
         .gallery__button{
            height: 2.8vw; 
            align-items: center;
@@ -428,7 +441,7 @@ width: 1047px;
             color: white;
             padding-top: 0.9vw;
             width:75vw;
-            overflow: hidden;
+            
             
         }
         .gallery__btns{
@@ -446,135 +459,25 @@ width: 1047px;
             width: 30px;
             height: 30px;
             }
+        .gallery__slide:before{
+            content: "";
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            bottom: 25px;
+            left: 25px;
+            background-image: url("../img/gallery-painthover.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0;
+            }
+       .gallery__slide { 
+           position: relative; 
+        }
        .gallery__paint{
            height: 18vw;
        }
-        .gallery__paint1{
-            background-image: url('../img/gall__img1-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint2{
-            background-image: url('../img/gall__img1-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint3{
-            background-image: url('../img/gall__img2-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint4{
-            background-image: url('../img/gall__img2-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint5{
-            background-image: url('../img/gall__img3-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint6{
-            background-image: url('../img/gall__img3-2.jpg');
-            background-size: cover;
-            
-        }
-        .gallery__paint7{
-            background-image: url('../img/gall__img4-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint8{
-            background-image: url('../img/gall__img4-2.png');
-            width: 18.23vw;
-            height: 18.23vw;
-            background-size: cover;
-            
-        }
-        .gallery__paint9{
-            background-image: url('../img/gall__img5-1.png');
-            width: 18.23vw;
-            height: 18.23vw;
-            background-size: cover;
-            
-        }
-        .gallery__paint10{
-            background-image: url('../img/gall__img5-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint11{
-            background-image: url('../img/gall__img6-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint12{
-            background-image: url('../img/gall__img6-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint13{
-            background-image: url('../img/gall__img7-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint14{
-            background-image: url('../img/gall__img7-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint15{
-            background-image: url('../img/gall__img8-1.png');
-        
-            background-size: cover;
-            
-        }
-        .gallery__paint16{
-            background-image: url('../img/gall__img8-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint17{
-            background-image: url('../img/gall__img9-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint18{
-            background-image: url('../img/gall__img9-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint19{
-            background-image: url('../img/gall__img10-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint20{
-            background-image: url('../img/gall__img10-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint21{
-            background-image: url('../img/gall__img11-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint22{
-            background-image: url('../img/gall__img11-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint23{
-            background-image: url('../img/gall__img12-1.png');
-            background-size: cover;
-            
-        }
-        .gallery__paint24{
-            background-image: url('../img/gall__img12-2.png');
-            background-size: cover;
-            
-        }
-        .gallery__pagination{
+       .gallery__pagination{
             width: 6.4%;
             text-align: center;
         }  
@@ -614,7 +517,7 @@ width: 1047px;
             color: gray;
         }
         .gallery__li{
-            border: gray 1px solid; 
+           background-color: rgba(0, 0, 0, 0.8);
         }
     
         @media screen and (min-width: 2100px) {

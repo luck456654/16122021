@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .simplebar-container {
+    background-color: #e5e5e5;
+    max-width: 300px;
+    padding: 30px;
+    overflow-y: scroll;
+  }
+  .simplebar-container::-webkit-scrollbar
+  {
+      background-color: black;
+      border-radius: 8px;
+      width: 2px;
+      overflow: hidden;
+      
+  }
+  .simplebar {
+    height: 240px;
+    padding-right: 20px;
+  }
+  .simplebar__item {
+    min-height: 30px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .simplebar__item:last-child {
+    margin-bottom: 0px;
+  }
+  
+  .simplebar .simplebar-track.simplebar-vertical {
+    background-color: green;
+    height: 10px;
+    width: 2px;
+  }
+  .simplebar .simplebar-scrollbar {
+    width: 2px;
+    height: 5px;
+    background-color: white;
+  }

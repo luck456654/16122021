@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/search.css">
     <link rel="stylesheet" type="text/css" href="css/banner.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
-    <link rel="stylesheet" type="text/css" href="css/choices.min.css">
+
 
     <link rel="stylesheet" type="text/css" href="css/descktop.css">
     <link rel="stylesheet" type="text/css" href="css/tablet.css">
@@ -269,19 +269,20 @@
                 <div class="gallery__part-left">
                     <h2 class="title-white gallery__title">Галерея</h2>
                     <div class="gallery__filter">Фильтр:</div>
-                    
-                                <select name="select" class="gallery__menu">
-                                    <option class="gallery__menu-li" value="Живопись">Живопись</option>
-                                    <option class="gallery__menu-li" value="Рисунок">Рисунок</option>
-                                    <option class="gallery__menu-li" value="Скульптура">Скульптура</option>
-                                </select> 
 
-                            
-                                <form >
-                                    <label><input class="gallery__checkbox" type="checkbox"> XIX век</input></label>                                     
-                                    <div><input class="gallery__checkbox" type="checkbox"> XX век</input></div>
-                                    <div><input class="gallery__checkbox" type="checkbox"> Cовременность</input></div>
-                                </form>    
+                    <select class="gallery__menu form-control" name="choices-single-custom-templates"
+                        id="choices-single-custom-templates">
+                        <option class="gallery__li" value="Живопись">Живопись</option>
+                        <option class="gallery__li">Скульптура</option>
+                        <option class="gallery__li">Картина</option>
+                    </select>
+
+
+                    <form>
+                        <label><input class="gallery__checkbox" type="checkbox"> XIX век</input></label>
+                        <div><input class="gallery__checkbox" type="checkbox"> XX век</input></div>
+                        <div><input class="gallery__checkbox" type="checkbox"> Cовременность</input></div>
+                    </form>
                     <div class="gallery__download">Вам предоставляется 10 бесплатных скачиваний. Для
                         увеличения количества скачиваний <a href="#" class="gallery__linck">авторизуйтесь</a>, либо
                         воспользуйтесь лицензией.
@@ -291,235 +292,119 @@
                 <div class="gallery__part-right">
                     <div class="gallery__btns">
                         <button>
-                        <svg class="gallery__btn-prev sw-btn" viewBox="0 0 30 30" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
-                                fill="#666666" />
-                            <path
-                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
-                                stroke="black" />
-                            <path d="M14 20L19 15L14 10" stroke="white" />
-                        </svg>
+                            <svg class="gallery__btn-prev sw-btn" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                    fill="#666666" />
+                                <path
+                                    d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                    stroke="black" />
+                                <path d="M14 20L19 15L14 10" stroke="white" />
+                            </svg>
                         </button>
                         <div class="gallery__pagination"></div>
                         <button>
-                        <svg class="gallery__btn-next sw-btn" viewBox="0 0 30 30" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
-                                fill="#666666" />
-                            <path
-                                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
-                                stroke="black" />
-                            <path d="M14 20L19 15L14 10" stroke="white" />
-                        </svg>
+                            <svg class="gallery__btn-next sw-btn" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                    fill="#666666" />
+                                <path
+                                    d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+                                    stroke="black" />
+                                <path d="M14 20L19 15L14 10" stroke="white" />
+                            </svg>
                     </div>
-                </button>
+                    </button>
 
                     <div class="swiper gallery__swiper">
                         <div class="gallery__right-content">
                             <div class="swiper-wrapper">
-                                <div class="gallery__slide swiper-slide">
-                                    <div class="gallery__paint1 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint2 swiper-slide--img gallery__paint ">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint3 swiper-slide--img gallery__paint ">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint4 swiper-slide--img gallery__paint" >
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint5 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint6 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint7 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint8 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint9 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint10 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint11 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint12 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint13 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint14 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint15 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint16 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint17 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint18 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint19 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint20 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint21 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint22 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide ">
-                                    <div class="gallery__paint23 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="gallery__slide swiper-slide">
-                                    <div class="gallery__paint24 swiper-slide--img gallery__paint">
-                                        <div class="gallery__glass">
-                                            <img src="img/gallery-glass.svg" class="gallery__glass-paint">
-                                        </div>
-                                    </div>
-                                </div>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img1-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img1-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img2-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img2-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img3-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img3-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img4-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img4-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img5-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img5-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img6-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img6-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img7-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img7-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img8-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img8-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img9-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img9-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img10-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img10-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img11-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img11-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img12-1.png" class="swiper-slide--img gallery__paint">
+                                </button>
+                                <button class="gallery__slide swiper-slide">
+                                    <img src="./img/gall__img12-2.png" class="swiper-slide--img gallery__paint">
+                                </button>
 
                             </div>
 
                         </div>
                     </div>
-    </section>
+        </section>
     </main>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
     <script src="./js/menu.js" defer></script>
     <script src="./js/swipers.js" defer></script>
-    <script src="./js/choices.min.js" defer></script>
+    <script src="./js/choices.js" defer></script>
     <script src="./js/burger.js" defer></script>
     <script src="./js/search.js" defer></script>
     <script src="./js/script.js" defer></script>
