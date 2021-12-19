@@ -1,12 +1,12 @@
 @media screen and (max-width: 767px) {
 .header-top__container{
     padding: 15px;
-    padding-top: 3.75vw;
-    padding-bottom: 3.44vw;
+    padding-top: 0px;
+    padding-bottom: 0.44px;
 }
 .header-container__burger{
-    width: 7.81vw;
-    height: 5.63vw;
+    width: 25px;
+    height: 18px;
 }
 .header__expand {
     width: 6vw;
@@ -24,172 +24,140 @@
     font-size: 5.34vw;
 }
 .header-top__logo{
-    margin-right: 32.19vw;
+    margin-right: 35.19%;
+    height: 26px;
 }
 .header-top__logo-img {
-    width: 30vw;
-    height: 7vw;
+    width: 96.8px;
+    height: 26.67px;
 }
 .form-container {
-    height: 6vw;
+    height: 21px;
+    width:91px;
 }
 .header-top__glass{
-    width: 5.67vw;
-    height: 5.67vw;
+    width: 18px;
+    height: 17px;
 }
 .banner__container {
-    padding: 10% 28px;
+    padding: 6% 28px 5% 28px;
 }
 
 .banner__title{
-    font-size: 10vw;
+    font-size: 32px;
     text-align: center;
-    line-height: 11.5vw;
-    width: 83vw;
-    padding-bottom: 2.7vw;
-    letter-spacing: 0.05vw;
-}
+    line-height: 38px;
+    width: 268px;
+    margin-bottom: 12px;
+    margin: 12px auto;
+    }
+
 .banner__description{
-    font-size:3.75vw; 
+    font-size:12px; 
     text-align: center;
-    font-family: "OpenSans-Regular";
     font-weight: normal;
-    line-height: 4.8vw;
-    width: 100%;
-    margin-bottom: 12.6vw;
+    line-height: 16px;
+    width: 265px;
+    margin-bottom: 36px;
+    margin: 0px auto 37px;
     }
 .banner__button-outline{
     margin: 0 auto;
-    width: 70vw;
-    height: 15vw;
-    border-radius: 31.25vw;
+    height: 52px;
+    border-radius: 100px;
     padding: 3vw;
-    padding-top: 1vw;
-    width: 69vw; 
+    padding-top: 5px;
+    width: 219px; 
     
 }
 .banner__button{
     margin: 0 auto;
-    border-radius: 31.25vw;
-    width: 63.2vw;
-    height: 12vw;
-    font-family: "OpenSans-Bold";
+    border-radius: 100px;
+    width: 200.2px;
+    height: 40px;
     font-style: normal;
     font-weight: bold;
-    font-size: 3.75vw;
+    font-size: 12px;
 }
-.banner{
-    height:96.2vw;
-  }
-  .banner__img1{
-   height:96.2vw;
-   }
-  .banner__img2{
-   height:96.2vw;
-   }
-  .banner__img3{
-   height:96.2vw;
-   } 
+
    .aboutus__container {
     padding: 15px;   
-    padding-top: 16.3vw;
-    padding-bottom: 12.5vw;
+    padding-top: 53.3px;
+    padding-bottom: 39.5px;
  }
 .title{ 
- font-size:8.75vw;
- padding-bottom: 5vw;
+ font-size:28px;
+ margin-bottom: 16px;
 }
 .aboutus__description{
-    font-family: "OpenSans-Regular";
     font-style: normal;
     font-weight: 400;
-    font-size: 4.38vw;
-    line-height: 8.76vw;
-    width:90.94vw;
+    font-size: 14px;
+    line-height: 28px;
+    width:99.94%;
 }
 .gallery__container {
     padding: 15px;
-    padding-top: 16.3vw;
-    padding-bottom: 66.7vw;
+    padding-top: 53.3px;
+    padding-bottom: 222.7px;
    }
 .title-white{
-    font-size:8.75vw;
-    padding-bottom: 9.7vw;
+    font-size:28px;
+    margin-bottom: 21.7px;
  }
  .gallery__filter{
-     font-size: 5vw;
-     margin-bottom: 3vw;
+     font-size: 16px;
+     margin-bottom: 13px;
  } 
  .gallery__ul{
      width:146%;
     
  }
- .gallery__li{
-    font-size: 5vw;
- }
- .gallery__list{
-     width:91vw;
- }
- .gallery__menu {
-    width: 92.5vw;
-    height: 13vw;
- }
- .gallery__button {
-    height: 12.27vw;
-    width: 90.5vw;
-   
- }
- .gallery__button-title{
-    font-size: 5vw;
-    padding-right: 55.7vw;
- }
- .gallery__expand {
-    width: 4.8vw;
-    height: 3vw;
- }
  .gallery__btns {
-    width: 41vw;
-    height: 10vw;
+    width: 128px;
+    height: 10px;
     order: 2;
     margin: 0 auto;
 }
-.gallery__list{
-    margin-bottom: 14vw;
+.gallery__menu{
+    width:291px;
+    margin-bottom: 13%;
 }
+
 .gallery__part-right {
-    width:91vw;
+    width:100%;
     display: flex;
     flex-direction: column;
 }
 .gallery__swiper{
     order:1;
-    margin-bottom: 3vw;
-}
+   }
 .gallery__paint {
-    height: 115.4vw;
-    width: 91.28vw;
-    margin-bottom: 4vw;
-    padding-top: 7vw;
+    height: 370.4px;
+    margin-bottom: 12px;
 }
-.gallery__glass {
-    width: 75.63vw;
-    height: 98.63vw;
-}
+
 .gallery__pagination {
     width: 100%;
 }
 .gallery__btn-prev{
-width: 20vw;
-height: 11vw;
+width: 30px;
+height: 30px;
 }
 .gallery__btn-next{
-    width: 20vw;
-    height: 11vw;
+    width: 30px;
+    height: 30px;
     }
-.gallery__download {
-    padding-top: 137.5vw;
-    font-size: 5vw;
-    width: 92vw;
-    line-height: 10vw;
-}    
+.gallery__form{
+    margin-top: 449px;
+}
+.choices{
+    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 36px;
+ }
+ .choices__list--dropdown {
+  position: relative;
+  z-index: 2;
+}   
 }

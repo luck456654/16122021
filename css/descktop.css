@@ -100,7 +100,7 @@ border-bottom: #9B6ABF 2px solid;
     opacity: 1;
 }
 .banner__button-outline:hover{
-    border: 0.05vw solid #C283F3;
+    border: 2px solid #C283F3;
     text-align: center;
     vertical-align: middle;
 }
@@ -133,7 +133,7 @@ border-bottom: #9B6ABF 2px solid;
 .header-top__container{
     font-size: 18px;
     font-weight: 600; 
-    padding-top: 28px;
+    padding-top: 30px;
     padding-bottom: 29.5px; 
 }
 
@@ -155,7 +155,7 @@ border-bottom: #9B6ABF 2px solid;
 }
 .header-top__list{
     margin-right: auto;
-    width: 71.5%;
+    width: 71.8%;
     justify-content: space-between;
 
 }
@@ -208,7 +208,7 @@ position: absolute;
 	font-weight: 400;
 	outline: none;
     color: white;
-    width: 11.5vw;
+    width: 221.1px;
     padding-bottom: 0.2rem;
 }
 .header-bottom__ul{
@@ -232,9 +232,6 @@ width: 1047px;
 }
 .header-top__search-container{
     display: none;
-}
-.banner__container{
-    margin-bottom: -53px;
 }
 .banner{
     padding-bottom: 20px;
@@ -312,7 +309,7 @@ width: 1047px;
         line-height: 82.8px;
         color: #FFFFFF;
         width: 597px;
-        margin-bottom: 23px;
+        margin-bottom: 20px;
         }
     .banner__description{
 		font-style: normal;
@@ -326,7 +323,7 @@ width: 1047px;
     .banner__button-outline{
             width:334px;
             height: 92px;
-            border-radius: 5.21vw;
+            border-radius: 100px;
             padding-top: 10px;
             }
         .banner__button{
@@ -339,7 +336,7 @@ width: 1047px;
             font-weight: bold;
             outline: none;
             border: none;
-            letter-spacing: 0vw;
+            letter-spacing: 0px;
           } 
         .aboutus{
             color: #333333;
@@ -366,7 +363,7 @@ width: 1047px;
         }
         .gallery__container{
                 padding-top: 85px;
-                padding-bottom: 66px;
+                padding-bottom: 76px;
                 font-style: normal;
                 font-weight: 600;
                 color: white;
@@ -374,30 +371,30 @@ width: 1047px;
                 flex-direction: row;
                } 
         .gallery__part-left{
-            width:561px;
+            flex: 1;
         }                
         .title-white{
             font-weight: 400;
             font-style: normal;
             font-weight: normal;
             font-size: 48px;
-            margin-bottom: 19px;
+            margin-bottom: 31px;
             color: white;
         }              
         .gallery__filter{
-            margin-bottom: 0.5vw;
+            margin-bottom: 12px;
             font-size: 16px;
-            line-height: 1.63vw;
             color: #FFFFFF;	
         }
         .gallery__menu{
-            width: 403px;
+            width: 88%;
             height: 41px;
             background-color: rgba(0,0,0,0.5);
             color: white;
             border-radius: 6px;
             outline:none;
-            margin-bottom: 29vw;
+            margin-bottom: 126%;
+            padding: 6px;
         }
         
         .gallery__menu-li{
@@ -407,6 +404,54 @@ width: 1047px;
             height: 41px;
             opacity: 1;   
         }
+        .choices{
+            width: 88%;
+            height: 41px;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border-radius: 6px;
+            outline:none;
+            margin-bottom: 126%;
+            padding: 6px;
+            
+            border:white 1px solid ;
+        }
+        .choices__inner{
+            background-color: rgba(0,0,0,0.2);
+            width: 280px;
+            border: none;
+            margin: -7.25px 7.5px 3.75px -2.5px;
+            font-size: 16px;
+        }
+        .choices__list{
+            background-color: rgba(0,0,0,0.2); 
+            width: 100%;
+           
+            
+               
+        }
+        .choices__list--dropdown{
+            border:gray 1px solid;
+            border-radius:6px;
+        }
+            
+        
+        .choices__item{
+            background-color: rgba(0,0,0,0.5);
+            
+        }
+        .choices__item--choice{
+            border:gray 1px solid;
+            padding:4px 4px 4px 20px;
+            width: 100%;
+            height: 79px;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            
+           
+        }
+
         .simplebar-container{
             font-family: "OpenSans";
             font-size: 14px;
@@ -415,20 +460,7 @@ width: 1047px;
             width: 300px;
             height: 300px;
         }
-        .gallery__button{
-           height: 2.8vw; 
-           align-items: center;
-           width: 22.2vw;
-           border: none;
-           padding: 1vw  1vw  1vw  1.7vw;
-        }
-        .gallery__button-title{
-            padding-right: 14.5vw;
-        }
-        .gallery__expand{
-            width: 0.63vw;
-            height: 0.36vw;
-        }
+       
         .gallery__download{
             width: 347px;
             line-height: 32px;
@@ -439,8 +471,7 @@ width: 1047px;
             }    
         .gallery__part-right{
             color: white;
-            padding-top: 0.9vw;
-            width:75vw;
+            width:72%;
             
             
         }
@@ -478,7 +509,7 @@ width: 1047px;
            height: 18vw;
        }
        .gallery__pagination{
-            width: 6.4%;
+            width: 7%;
             text-align: center;
         }  
         .gallery__right-content{
@@ -487,38 +518,12 @@ width: 1047px;
         .gallery__btns{
             padding-bottom: 2.8%;
             align-items: center;
+            padding-top: 19px;
         }
         
-        .gallery__glass{
-            background-color: rgba(0, 0, 0, 0.5);
-            width: 15.63vw;
-            height: 15.63vw;
-            margin:0  auto ;
-            text-align: center;
-            opacity: 0;
-          }
-        .gallery__glass-paint{
-            width: 28.22%;
-            height: 100%;
-            margin:0 auto;
-            }
-         
-        .gallery__ul{
-            background-color: rgba(0,0,0,0.5)!important;
-            border: gray 1px solid;
-            width: 21.83vw;
-            border-radius: 6px;
-            font-family: "OpenSans";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 0.83vw;
-            line-height: 32px;
-            border-radius: 6px;
-            color: gray;
-        }
-        .gallery__li{
-           background-color: rgba(0, 0, 0, 0.8);
-        }
+        
+        
+        
     
         @media screen and (min-width: 2100px) {
             .gallery__paint{
@@ -526,14 +531,7 @@ width: 1047px;
                 width: 12.28vw;
                 padding-top: 0.6vw;
                 }
-                .gallery__glass {
-                    background-color: rgba(0, 0, 0, 0.5);
-                    width: 11.63vw;
-                    height: 12.63vw;
-                    margin: 0 auto;
-                    text-align: center;
-                    opacity: 0;    
-                    }
+               
                 }
             
                  

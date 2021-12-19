@@ -3,8 +3,8 @@
     display: none;
 }
 .header-top__container {
-    padding-top: 2.7vw;
-    padding-bottom: 2.7vw;
+    padding-top: 27px;
+    padding-bottom: 26px;
     
 }
 .burger__nav{
@@ -69,7 +69,7 @@
  
   .header-top__linck{
       font-size: 2.34vw;
-      font-family: "OpenSans-Regular";
+      font-family: "OpenSans";
       font-style: normal;
       font-weight: 600;
       line-height: 6.25vw;
@@ -92,138 +92,108 @@
    .form-btn__open{
        order:3;
    }
+   .burger__btn-open{
+       height: 46px;
+   }
    .header-top__logo-img{
-       width: 18.4vw;
+       width: 187.5px;
+       height: 42px;
    }
    .header-top__glass{
-       height: 3.97vw;
+    width: 30px;
+    height: 45.97px;
         }
     .form__input{
         width: 16vw;
     } 
-    .banner{
-      height: 65.4vw;
-    }
-    .banner__img1{
-     height: 65.4vw;
-     }
-    .banner__img2{
-     height: 65.4vw;
-     }
-    .banner__img3{
-     height: 65.4vw;
-     } 
+    
      .banner__container{
-         padding: 11% 52px;
+         padding: 11% 52px 7.4% 52px;
      } 
      .banner__title{
-         font-size: 7vw;
-         width: 58vw;
-         line-height: 8vw;
-         margin-bottom: 1.2vw;
+         font-size: 72px;
+         width: 580px;
+         line-height: 83px;
+         margin-bottom: 13px;
      } 
      .banner__description{ 
-        font-size:1.76vw;
+        font-size:18px;
         width: 76%;
-        line-height: 3vw;
-        margin-bottom: 12.7vw;
+        line-height: 30px;
+        margin-bottom: 124.7px;
      }
      .banner__button {
-        width: 30.35vw;
-        height: 6.7vw;
-        font-size: 1.76vw;
-     }
+        width: 314px;
+        height: 70px;
+        font-size: 18px;
+        }
      .banner__button-outline {
-        width: 31.9vw;
-        height: 7.5vw;
+        width: 337.9px;
+        height: 95.5px;
     }
     .aboutus__container {
-        padding-top: 8vw;
-        padding-bottom: 7vw;
+        padding-top: 88px;
+        padding-bottom: 70px;
     }
     .title{
-    font-size:4.69vw;
-    padding-bottom: 2.2vw;
-    }
+    font-size:48px;
+    margin-bottom: 19px;
+     }
     .aboutus__description{
-    font-size:1.56vw;
-    width: 90.25vw;
-    line-height: 3.12vw;
+    font-size:16px;
+    width: 923px;
+    line-height: 32px;
     }
     .gallery__container {
-        padding-top: 8.3vw;
-        padding-bottom: 7vw;
+        padding-top: 86px;
+        padding-bottom: 79px;
+    }
+    .choices{
+        width: 84%;
     }
    .title-white{
-    font-size:4.69vw;
+    font-size:48px;
    }
   .gallery__title{
-    padding-bottom: 2.8vw;
+    margin-bottom: 27px;
    }
    .gallery__filter{
-    font-size:1.56vw
+    font-size:16px;
+    margin-bottom: 16px;
    } 
+   .gallery__menu{
+       margin-bottom: 114%;
+       width: 84%;
+       padding: 10px;
+   }
    .gallery__part-left {
-    width: 37vw;
+    flex: 1;
     }
+    .gallery__part-right {
+        width: 64%;
+       
+        }
     .gallery__btns {
-        padding-bottom: 4%;
+        margin-bottom: 8px;
     }
     .gallery__btn-prev {
-       width: 3.56vw;
-       height: 3.56vw;
+       width: 30px;
+       height: 30px;
        transform: rotate(
     180deg);
     }
     .gallery__btn-next {
-        width: 3.56vw;
-        height: 4.5vw;
+        width: 30px;
+        height: 30px;
         }
     .gallery__pagination {
         width: 11%;
     }
     .gallery__paint {
-        height: 27.07vw;
-        width: 27.28vw;
-        margin-bottom: -1.3vw;
-        padding-top: 2vw;
+        height: 287.07px;
+        width: 280.28px;
+        margin-bottom: -20px;
+        
+     
     }
-    .gallery__paint-bottom{
-        height: 28.5vw;
-    }
-    .gallery__glass {
-        width: 21.63vw;
-        height: 23.63vw;
-    }
-    .gallery__filter {
-        margin-bottom: 1vw;
-        }
-    .gallery__button{
-        height: 4vw;
-        width: 28.5vw;
-        padding: 1vw 1vw 1vw 2.2vw;
-    }  
-    .gallery__button-title{
-        font-size: 1.58vw;
-        padding-right: 15.6vw;
-    }
-    .gallery__ul {
-        width: 28.2vw;
-    }
-    .gallery__li{
-        font-size: 1.58vw;   
-    }  
-    .gallery__expand {
-        width: 1.3vw;
-        height: 2vw;
-    }
-    .gallery__menu{
-        margin-bottom: 35.7vw;
-        height: 4vw;
-    }
-    .gallery__download{
-    font-size:1.56vw;
-    width: 26.89vw;
-    line-height: 3.1vw;
-    }
-    }
+  }

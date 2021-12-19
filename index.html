@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
 
+    <link rel="stylesheet" type="text/css" href="css/choices.min.css">    
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/burger.css">
     <link rel="stylesheet" type="text/css" href="css/search.css">
@@ -270,23 +271,19 @@
                     <h2 class="title-white gallery__title">Галерея</h2>
                     <div class="gallery__filter">Фильтр:</div>
 
-                    <select class="gallery__menu form-control" name="choices-single-custom-templates"
-                        id="choices-single-custom-templates">
-                        <option class="gallery__li" value="Живопись">Живопись</option>
+                    <select id="selectCustom" name="select">
+                        <option selected disabled hidden>Живопись</option>
                         <option class="gallery__li">Скульптура</option>
                         <option class="gallery__li">Картина</option>
                     </select>
 
-
-                    <form>
+                    
+                    <form class="gallery__form">
                         <label><input class="gallery__checkbox" type="checkbox"> XIX век</input></label>
                         <div><input class="gallery__checkbox" type="checkbox"> XX век</input></div>
                         <div><input class="gallery__checkbox" type="checkbox"> Cовременность</input></div>
                     </form>
-                    <div class="gallery__download">Вам предоставляется 10 бесплатных скачиваний. Для
-                        увеличения количества скачиваний <a href="#" class="gallery__linck">авторизуйтесь</a>, либо
-                        воспользуйтесь лицензией.
-                    </div>
+                    
                 </div>
 
                 <div class="gallery__part-right">
@@ -337,7 +334,7 @@
                                     <img src="./img/gall__img3-1.png" class="swiper-slide--img gallery__paint">
                                 </button>
                                 <button class="gallery__slide swiper-slide">
-                                    <img src="./img/gall__img3-2.png" class="swiper-slide--img gallery__paint">
+                                    <img src="./img/gall__img3-2.jpg" class="swiper-slide--img gallery__paint">
                                 </button>
                                 <button class="gallery__slide swiper-slide">
                                     <img src="./img/gall__img4-1.png" class="swiper-slide--img gallery__paint">
@@ -403,6 +400,8 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
     <script src="./js/menu.js" defer></script>
+    <script src="./js/choices.min.js" defer></script>
+    <script src="./js/choices.js" defer></script>
     <script src="./js/swipers.js" defer></script>
     <script src="./js/choices.js" defer></script>
     <script src="./js/burger.js" defer></script>
