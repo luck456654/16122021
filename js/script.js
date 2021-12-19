@@ -39,7 +39,7 @@ function changeIcon2(e){
 
 function rotateExpand(event){
     expand1=document.getElementById(event);
-    expand1.style="transform: rotate(180deg);padding-top:0.1vw";
+    expand1.style="transform: rotate(180deg);padding-top:0.1vw;margin-bottom:3px";
     
 }
 function rotateExpand2(event){
@@ -60,6 +60,51 @@ button2.addEventListener("blur",changeIcon2)
 button3.addEventListener("blur",changeIcon2)
 button4.addEventListener("blur",changeIcon2)
 button5.addEventListener("blur",changeIcon2)
+
+
+let search=document.querySelector('.form-btn__open');
+let burger=document.querySelector('.header-container__burger');
+let logo=document.querySelector('.header-top__logo');
+let formContainer=document.querySelector('.form-container');
+let formInput=document.querySelector('.form__input');
+let formActive=document.querySelector('.form');
+let logoWrapper=document.querySelector(".header-top__logo")
+
+//Здесь,ниже находится скрипт по которому прошу помощи
+let i=0;
+search.addEventListener("click",hideSearch);
+search.addEventListener("blur",hideSearch);
+function hideSearch(){
+    if (((String(search.name)=="noactive2"))&&(window.screen.width<1024)&&(i==0))
+    {
+    alert("123");
+    burger.style.display='none';
+    logo.style.display='none';
+    formContainer.style.width='1400px';    
+    formInput.style.width='100%';
+    formActive.style.width='100%'; 
+    search.name="active2"; 
+    i=1;
+    return i;  
+    }
+    else if(i==0){
+        alert("456");
+        burger.style.display='block';
+        logo.style.display='block';
+        formContainer.style.width='215px'; 
+        search.name="noactive2";
+        logoWrapper.style.marginRight='213px';
+        i=0;
+        return i;
+        
+    }
+    i=0;
+}
+ 
+
+
+
+
 
 
 

@@ -107,6 +107,9 @@ border-bottom: #9B6ABF 2px solid;
 .gallery__slide:hover:before { 
     opacity: 1; 
 } 
+.banner__button:hover{
+    border: 1px solid #C283F3;
+}
 
 /* Стили адаптива разрешения на 1920 cвыше 1200*/
 .nav__close{

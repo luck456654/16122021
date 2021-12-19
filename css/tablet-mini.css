@@ -7,7 +7,7 @@
        width: 20px;
     }
     .header-top__logo{
-        margin-right: 213px;
+        margin-right: 167px;
     }
     .header-top__logo-img{
     width:187.6px;
@@ -21,17 +21,13 @@
       height: 100vw;
       }
    .header-top__linck{
-      font-size: 3.34vw;
+      font-size: 24px;
+      line-height: 64px;
    }   
    .burger__list{
       height: 75.66vw;
    }
-    .form-container{
-        display: block;
-        width: 28vw;
-        height: 4vw;
-        position: relative;
-        }
+    
      
      .banner__container {
         padding: 14.5% 51px  11% ;
@@ -126,7 +122,8 @@
   } 
   .gallery__form{
      order: 3;
-     
+     position: absolute;
+     z-index: 2;
   }
   .choices{
      margin-bottom: 10px;

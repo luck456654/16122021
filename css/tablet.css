@@ -10,39 +10,39 @@
 .burger__nav{
     flex-direction: column;
     width: 50%;
-    padding: 4vw;
+    padding: 30px;
     order: 1;
 }
 .burger__nav{
     flex-direction: column;
     align-items: baseline;  
-    height: 76vw;
+    height: 76%;
 } 
 .burger__list{
     flex-direction: column;
     width: 100%;
-    margin-top: 1vw;
+    margin-top: 5px;
     align-items: baseline;
-    margin-bottom: 5.13vw;
-    height: 54.66vw;
+    margin-bottom: 29px;
+    height: 100%;
 }
 
 .nav__close{
     display: block;
 }
 .header-top__linck{
-    font-size:2.5vw;
+    font-size:24px;
 }
 
  
  .header__expand{
- width: 3vw;
- height: 2vw;
+ width: 23px;
+ height: 23px;
  }
  .form-container{
     display: block;
-    width: 22vw;
-    height: 4vw;
+    width: 261px;
+    height: 36px;
     position: relative;
     
   }
@@ -52,15 +52,15 @@
   
   .header-top__login{
       font-weight: normal;
-      font-size: 3vw;
+      font-size: 32px;
       background-color: rgba(0,0,0,0.95);
       border: 2px solid #9D5CD0;
-      border-radius: 9.77vw;
-      padding: 1vw 9vw;
+      border-radius: 100px;
+      padding: 20px 95px;
   }
   .header-top__nav{
       width: 100%;
-      height: 76vw;
+      height: 802px;
       order:2;
       background-color: rgba(0,0,0,0.95);
   }
@@ -68,17 +68,17 @@
   
  
   .header-top__linck{
-      font-size: 2.34vw;
+      font-size: 24px;
       font-family: "OpenSans";
       font-style: normal;
       font-weight: 600;
-      line-height: 6.25vw;
+      line-height: 64px;
   }
     
    .header-top__logo {
        margin: 0 auto;
        order: 2;
-       width: 0vw;
+       width: 0px;
       
    }
    .header-top__search-container{
@@ -103,9 +103,7 @@
     width: 30px;
     height: 45.97px;
         }
-    .form__input{
-        width: 16vw;
-    } 
+    
     
      .banner__container{
          padding: 11% 52px 7.4% 52px;

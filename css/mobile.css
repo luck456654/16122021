@@ -9,19 +9,29 @@
     height: 18px;
 }
 .header__expand {
-    width: 6vw;
-    height: 4vw;
+    width: 10px;
+    height: 10px;
 }
 .header-top__nav{
-    height: 111vw;
+    height: 403px;
 }
 .header-top__login{
-    padding: 2vw 13vw;
-    font-size: 6vw;
+    padding: 2px 13px;
+    font-size: 16px;
+    
 } 
+.burger__item{
+    height: 20px;
+    font-size: 16px;
+}
+.burger__list{
+    height: 163px;
+    margin-bottom: 51px;
+}
 
 .header-top__linck {
-    font-size: 5.34vw;
+    font-size: 16px;
+    line-height: 32px;
 }
 .header-top__logo{
     margin-right: 35.19%;
@@ -70,6 +80,7 @@
     width: 219px; 
     
 }
+
 .banner__button{
     margin: 0 auto;
     border-radius: 100px;
