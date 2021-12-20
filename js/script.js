@@ -87,7 +87,7 @@ function hideSearch(){
     i=1;
     return i;  
     }
-    else if(i==0){
+    else if((i==0)&&(window.screen.width<1024)){
         alert("456");
         burger.style.display='block';
         logo.style.display='block';

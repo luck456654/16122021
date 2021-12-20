@@ -236,12 +236,12 @@
                 <h2 class="banner__title">Прикоснитесь к прекрасному</h2>
                 <p class="banner__description">Мы вынуждены отталкиваться от того, что реализация намеченных плановых
                     заданий создаёт предпосылки для новых предложений.</p>
-               
-                    <button type="button" class="banner__button">Подписаться на рассылку</button>
+               <button type="button" class="banner__button">Подписаться на рассылку</button>
+                
                 </div>
 
 
-            </div>
+            
         </section>
         <section id="aboutus">
             <div class="aboutus">
@@ -279,9 +279,18 @@
 
                     
                     <form class="gallery__form">
-                        <label><input class="gallery__checkbox" type="checkbox"> XIX век</input></label>
-                        <div><input class="gallery__checkbox" type="checkbox"> XX век</input></div>
-                        <div><input class="gallery__checkbox" type="checkbox"> Cовременность</input></div>
+                        <label for="check" class="gallery__label">
+                            <input class="gallery__checkbox" name="check" id="check" type="checkbox">   XIX век</input>
+                        <span></span>
+                        </label>
+                        <label for="check2" class="gallery__label">
+                            <input class="gallery__checkbox" name="check2" id="check2" type="checkbox">   XX век</input>
+                        <span></span>
+                        </label>
+                        <label for="check3" class="gallery__label">
+                            <input class="gallery__checkbox " name="check3" id="check3" type="checkbox">   Современность</input>
+                        <span></span>
+                        </label>
                     </form>
                     
                 </div>

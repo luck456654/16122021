@@ -154,6 +154,10 @@ color:white;
 .banner__button:hover{
     border: 1px solid #C283F3;
 }
+.gallery__label:hover{
+   color:#C283F3;
+
+}
 
 /* Стили адаптива разрешения на 1920 cвыше 1200*/
 .nav__close{
@@ -508,10 +512,97 @@ width: 1047px;
             width: 300px;
             height: 300px;
         }
+        
        
-        .gallery__download{
-            width: 347px;
-            line-height: 32px;
+        label{
+            cursor: pointer;
+            position: relative;
+            padding-left: 20px;
+        }
+        .gallery__form{
+            display: flex;
+            flex-direction: column;
+        }
+        #check{
+            display:none;
+        }
+        #check + span{
+            position: absolute;
+            top: 0;
+            left:0;
+            width:20px;
+            height: 20px;
+            border: 1px solid blueviolet;
+            text-align: center;
+            ;
+        }
+        #check + span:before{
+            content: url(../img/checbox-content.png);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -4px;
+            bottom: 0;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            vertical-align: middle;
+        }
+        #check:checked + span:before{
+            opacity: 1;
+        }
+
+        #check2{
+            display:none;
+        }
+        #check2 + span{
+            position: absolute;
+            top: 0;
+            left:0;
+            width:20px;
+            height: 20px;
+            border: 1px solid blueviolet;
+            text-align: center;
+        }
+        #check2 + span:before{
+            content: url(../img/checbox-content.png);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -4px;
+            bottom: 0;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+        }
+        #check2:checked + span:before{
+            opacity: 1;
+        }
+        #check3{
+            display:none;
+        }
+        #check3 + span{
+            position: absolute;
+            top: 0;
+            left:0;
+            width:20px;
+            height: 20px;
+            border: 1px solid  #C283F3;
+            ;
+            text-align: center;
+        }
+        #check3 + span:before{
+            content: url(../img/checbox-content.png);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -4px;
+            bottom: 0;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+        }
+        #check3:checked + span:before{
+            opacity: 1;
+        }
+        .gallery__label{
             font-size: 16px;
             }
         .gallery__linck{

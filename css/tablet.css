@@ -77,6 +77,7 @@
     
    .header-top__logo {
        margin: 0 auto;
+       margin-right: 296px;
        order: 2;
        width: 0px;
       
@@ -106,7 +107,7 @@
     
     
      .banner__container{
-         padding: 11% 52px 7.4% 52px;
+         padding: 11% 52px 9.2% 52px;
      } 
      .banner__title{
          font-size: 72px;
@@ -118,7 +119,7 @@
         font-size:18px;
         width: 76%;
         line-height: 30px;
-        margin-bottom: 124.7px;
+        margin-bottom: 132.7px;
      }
      .banner__button {
         width: 314px;

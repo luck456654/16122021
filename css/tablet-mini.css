@@ -15,7 +15,7 @@
     }
     .header-top__glass{
        width: 26.66px;
-       height: 26.66px;
+       height: 32.66px;
     } 
     .header-top__nav{
       height: 100vw;
@@ -30,7 +30,7 @@
     
      
      .banner__container {
-        padding: 14.5% 51px  11% ;
+        padding: 14.5% 51px  12% ;
         
      }
      .banner__title{
@@ -43,7 +43,7 @@
      font-size:18px; 
      width: 99%; 
      line-height: 30px;
-     margin-bottom: 121px;  
+     margin-bottom: 134px;  
      }
      .banner__button{
         width: 314px;
@@ -55,7 +55,7 @@
         height: 96px;
      }
      .aboutus__container {
-        padding-top: 81px;
+        padding-top: 87px;
         padding-bottom: 70px;
      }
      .title{
@@ -69,7 +69,7 @@
      }
      .gallery__container {
       padding-top: 85.3px;
-      padding-bottom: 21.7%;
+      padding-bottom: 35.7%;
      }
      .gallery__container {
         flex-direction: column;

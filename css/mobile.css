@@ -50,7 +50,8 @@
     height: 17px;
 }
 .banner__container {
-    padding: 6% 28px 5% 28px;
+    padding: 6% 28px 8% 28px;
+    text-align: center;
 }
 
 .banner__title{
@@ -68,18 +69,9 @@
     font-weight: normal;
     line-height: 16px;
     width: 265px;
-    margin-bottom: 36px;
-    margin: 0px auto 37px;
+    margin: 0 auto 40px;
     }
-.banner__button-outline{
-    margin: 0 auto;
-    height: 52px;
-    border-radius: 100px;
-    padding: 3vw;
-    padding-top: 5px;
-    width: 219px; 
-    
-}
+
 
 .banner__button{
     margin: 0 auto;
@@ -98,7 +90,7 @@
  }
 .title{ 
  font-size:28px;
- margin-bottom: 16px;
+ margin-bottom: 15px;
 }
 .aboutus__description{
     font-style: normal;
@@ -110,7 +102,7 @@
 .gallery__container {
     padding: 15px;
     padding-top: 53.3px;
-    padding-bottom: 222.7px;
+    padding-bottom: 225.7px;
    }
 .title-white{
     font-size:28px;
