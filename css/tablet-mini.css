@@ -7,11 +7,14 @@
        width: 20px;
     }
     .header-top__logo{
-        margin-right: 167px;
+        margin: 0 auto;
     }
     .header-top__logo-img{
     width:187.6px;
     height:42px;
+    }
+    .form-container{
+       width:208px;
     }
     .header-top__glass{
        width: 26.66px;

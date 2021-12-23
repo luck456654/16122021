@@ -2,7 +2,7 @@ document.querySelector(".form-btn__open").addEventListener("click", function() {
     document.querySelector(".form").classList.add("form__active");
     this.classList.add("active");
   })
-  
+  if (screen.width>1023){
   document.addEventListener("click", function(e) {
     let target = e.target;
     let form = document.querySelector(".form");
@@ -12,3 +12,4 @@ document.querySelector(".form-btn__open").addEventListener("click", function() {
       document.querySelector(".form-btn__open").classList.remove("active")
     }
   })
+}

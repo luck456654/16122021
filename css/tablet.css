@@ -93,6 +93,16 @@
    .form-btn__open{
        order:3;
    }
+   .header-top__form-search{
+    display: flex;
+    flex-direction: row;
+    width: 61%;
+   
+}
+.header-top__form-close{
+    color:white;
+    font-size:40px ;
+}
    .burger__btn-open{
        height: 46px;
    }

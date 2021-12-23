@@ -63,7 +63,7 @@ button {
   .form__input {
     padding: 5px;
     background-color: #18171B;
-    border-bottom: white 1px solid;
+    border-bottom: gray 1px solid;
       }
   .form__input:focus-visible {
     outline: 0;

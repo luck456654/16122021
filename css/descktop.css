@@ -52,6 +52,21 @@ input::placeholder {
 input{
     color: white;
 }  
+.gallery__slide:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, 
+    rgba(194, 131, 243, 0.4), 
+    rgba(194, 131, 243, 0.4));
+    opacity:0;
+    }
+.gallery__slide:active:before{
+    opacity: 1;
+    }
 
 
 /* Ховеры*/
@@ -148,7 +163,7 @@ color:white;
     background: #7943A4;
     border: 3px solid #D1A9F0;  
 }
-.gallery__slide:hover:before { 
+.gallery__slide:hover:before:not(:hover) { 
     opacity: 1; 
 } 
 .banner__button:hover{
@@ -214,6 +229,7 @@ color:white;
 .header-top__list li:not(:last-child){
     margin-right: 10px;
 }
+
 .header-bottom{
     background: rgba(0,0,0, 0.5);
     color:white;

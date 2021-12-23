@@ -69,36 +69,58 @@ let formContainer=document.querySelector('.form-container');
 let formInput=document.querySelector('.form__input');
 let formActive=document.querySelector('.form');
 let logoWrapper=document.querySelector(".header-top__logo")
-
+let formClose=document.querySelector('.header-top__form-close');
+let svg=document.querySelector('.header-top__svg')
+let headerTop=document.querySelector(".header-top__container")
 //Здесь,ниже находится скрипт по которому прошу помощи
 let i=0;
 search.addEventListener("click",hideSearch);
-search.addEventListener("blur",hideSearch);
+formClose.addEventListener("click",hideSearch);
+
+
 function hideSearch(){
-    if (((String(search.name)=="noactive2"))&&(window.screen.width<1024)&&(i==0))
+    if (((String(search.name)=="noactive2"))&&(window.screen.width<1024)&&(window.screen.width>767)&&(i==0))
     {
-    alert("123");
     burger.style.display='none';
     logo.style.display='none';
-    formContainer.style.width='1400px';    
-    formInput.style.width='100%';
-    formActive.style.width='100%'; 
+    formContainer.style.width='1023px';    
+    formInput.style='width:93%;background-color:rgba(0,0,0,0)';
+    formActive.style.width='93%'; 
+    search.name="active2"; 
+    svg.style='width:25px!important; height:25px!important';
+    i=1;
+    return i;  
+    }
+    else if((i==1)&&(window.screen.width<1024)){
+        burger.style.display='flex';
+        logo.style.display='flex';
+        formInput.style.display='none'; 
+        formClose.style.display='none';
+        search.style.display='flex';
+        search.name="noactive2";
+        formContainer.style.width='36px';
+        logoWrapper.style="margin:0 auto 0 33%";
+        formContainer.classList.remove('style__form'); 
+        i=0;
+        return i;
+        
+        
+    }
+    if (((String(search.name)=="noactive2"))&&(window.screen.width<768)&&(i==0))
+    {
+    burger.style.display='none';
+    logo.style.display='none';
+    formContainer.classList.add('style__form');    
+    formInput.style='width:60%;background-color:rgba(0,0,0,0)';
+    formActive.style.width='64%';
+    formClose.style='display:flex;margin:-15px 198px 107px;position:absolute;font-size:16px'; 
+    svg.style="width:16px;height:16px"
     search.name="active2"; 
     i=1;
     return i;  
     }
-    else if((i==0)&&(window.screen.width<1024)){
-        alert("456");
-        burger.style.display='block';
-        logo.style.display='block';
-        formContainer.style.width='215px'; 
-        search.name="noactive2";
-        logoWrapper.style.marginRight='213px';
-        i=0;
-        return i;
-        
-    }
-    i=0;
+    
+   
 }
  
 
