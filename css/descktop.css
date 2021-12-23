@@ -64,9 +64,9 @@ input{
     rgba(194, 131, 243, 0.4));
     opacity:0;
     }
-.gallery__slide:active:before{
-    opacity: 1;
-    }
+    .gallery__slide:active:after { 
+        opacity: 1;
+     }
 
 
 /* Ховеры*/
