@@ -61,7 +61,7 @@ button3.addEventListener("blur",changeIcon2)
 button4.addEventListener("blur",changeIcon2)
 button5.addEventListener("blur",changeIcon2)
 
-
+let searchContainer=document.querySelector(".header-top__search-container")
 let search=document.querySelector('.form-btn__open');
 let burger=document.querySelector('.header-container__burger');
 let logo=document.querySelector('.header-top__logo');
@@ -72,7 +72,7 @@ let logoWrapper=document.querySelector(".header-top__logo")
 let formClose=document.querySelector('.header-top__form-close');
 let svg=document.querySelector('.header-top__svg')
 let headerTop=document.querySelector(".header-top__container")
-//Здесь,ниже находится скрипт по которому прошу помощи
+
 let i=0;
 search.addEventListener("click",hideSearch);
 formClose.addEventListener("click",hideSearch);
@@ -83,11 +83,11 @@ function hideSearch(){
     {
     burger.style.display='none';
     logo.style.display='none';
-    formContainer.style.width='1023px';    
-    formInput.style='width:93%;background-color:rgba(0,0,0,0)';
-    formActive.style.width='93%'; 
+    formContainer.classList.add("style__formContainer");
+    formInput.classList.add("style__formInput");
+    formActive.classList.add("style__formActive");
+    svg.classList.add("style__svg");
     search.name="active2"; 
-    svg.style='width:25px!important; height:25px!important';
     i=1;
     return i;  
     }
@@ -98,10 +98,16 @@ function hideSearch(){
         formClose.style.display='none';
         search.style.display='flex';
         search.name="noactive2";
-        formContainer.style.width='36px';
-        logoWrapper.style="margin:0 auto 0 33%";
-        formContainer.classList.remove('style__form'); 
-        i=0;
+        formContainer.classList.remove("style__formContainer");
+        formInput.classList.remove("style__formInput");
+        formActive.classList.remove("style__formActive");
+        svg.classList.remove("style__svg");
+        formContainer.classList.add("style__formContainerHide");
+        logoWrapper.classList.add("style__logoWrapperHide");
+        formContainer.classList.remove('style__form');
+        svg.classList.remove("style__svg");
+        svg.classList.add('style__svg-before');
+       i=0;
         return i;
         
         
@@ -111,10 +117,10 @@ function hideSearch(){
     burger.style.display='none';
     logo.style.display='none';
     formContainer.classList.add('style__form');    
-    formInput.style='width:60%;background-color:rgba(0,0,0,0)';
-    formActive.style.width='64%';
-    formClose.style='display:flex;margin:-15px 198px 107px;position:absolute;font-size:16px'; 
-    svg.style="width:16px;height:16px"
+    formInput.classList.add('style__formInput');
+    formActive.classList.add('style__formActive');
+    formClose.classList.add('style__formClose'); 
+    svg.classList.add('style__svg');
     search.name="active2"; 
     i=1;
     return i;  

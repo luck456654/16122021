@@ -34,7 +34,7 @@
     line-height: 32px;
 }
 .header-top__logo{
-    margin-right: 35.19%;
+    margin: 0 auto;
     height: 26px;
 }
 .header-top__logo-img {
@@ -43,7 +43,7 @@
 }
 .form-container {
     height: 21px;
-    width:91px;
+    width:116px;
 }
 .header-top__glass{
     width: 18px;
@@ -52,6 +52,34 @@
 .banner__container {
     padding: 6% 28px 8% 28px;
     text-align: center;
+}
+.style__formInput{
+    width:30%;
+    background-color:rgba(0,0,0,0)
+}
+.style__formActive{
+    width:64%;
+}
+.style__formClose{
+    display:flex;
+    margin:-15px 198px 107px;
+    position:absolute;
+    font-size:16px
+}
+.style__svg-before{
+    width:62px;
+    height:17px;
+}
+.style__svg{
+    width:16px;
+    height:16px
+}
+.style__logoWrapperHide {
+    width: 320px;
+    margin: 0 auto 0 27%!important;
+}
+.search-container{
+    height: 89px;
 }
 
 .style__form{

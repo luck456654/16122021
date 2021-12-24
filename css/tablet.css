@@ -140,6 +140,26 @@
         width: 337.9px;
         height: 95.5px;
     }
+    .style__formContainer{
+        width:800px!important;
+    }
+    .style__formInput{
+      width:93%;background-color:rgba(0,0,0,0)
+    }
+    .style__formActive{
+        width:1019px!important;
+    }
+    .style__formContainerHide{
+        width:36px;
+    }
+    .style__logoWrapperHide{
+    margin:0 auto 0 33%!important;
+    width:1025px;
+    }
+    .style__svg{
+        width:25px!important; 
+        height:25px!important;
+    }
     .aboutus__container {
         padding-top: 88px;
         padding-bottom: 70px;
